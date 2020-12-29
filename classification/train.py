@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import recall_score, precision_score, f1_score
 
+num = 21
 shape = 0
 ACTIVATION = "selu"
 shape_list = []
@@ -44,8 +45,8 @@ def SpatialAttention(inputs):
 
 
 def LoadData():
-    X = np.load("./data/33/X.npy")
-    y = np.load("./data/33/y.npy")
+    X = np.load("./data/%d/X.npy" % num)
+    y = np.load("./data/%d/y.npy" % num)
 
     global shape
     shape = X.shape[1]
@@ -142,10 +143,10 @@ def Model(X_train, X_test, y_train, y_test):
     output = layer.Dense(1, activation="sigmoid", kernel_initializer=tf.keras.initializers.he_uniform())(flatten)
 
     # Model
-    old_model=tf.keras.models.load_model("./mo")
+    model = tf.keras.models.load_model("./model/model.h5")
+    head_model = tf.keras.models.load_model("./model/model_%d.h5" % num)
 
-
-    model = tf.keras.Model(inputs=input, outputs=output)
+    # model = tf.keras.Model(inputs=input, outputs=output)
     model.summary()
     model.compile(optimizer=tf.keras.optimizers.Adam(0.0001), loss="binary_crossentropy",
                   metrics=[tf.keras.metrics.Precision(), tf.keras.metrics.Recall()])
