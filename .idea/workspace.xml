@@ -24,7 +24,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.train">
     <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Eye" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -46,9 +46,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="train1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Eye" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classification/train1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.train" />
+        <item itemvalue="Python.train1" />
       </list>
     </recent_temporary>
   </component>
@@ -66,25 +88,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="226" key="GridCell.Tab.0.bottom" timestamp="1609228051412">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609250330177">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609228051412" />
-    <state width="1419" height="226" key="GridCell.Tab.0.center" timestamp="1609228051411">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1609250330177" />
+    <state width="1419" height="474" key="GridCell.Tab.0.bottom" timestamp="1609252321256">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1609228051411" />
-    <state width="1419" height="226" key="GridCell.Tab.0.left" timestamp="1609228051410">
+    <state width="1419" height="474" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1609252321256" />
+    <state width="1419" height="474" key="GridCell.Tab.0.center" timestamp="1609252321255">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1609228051410" />
-    <state width="1419" height="226" key="GridCell.Tab.0.right" timestamp="1609228051411">
+    <state width="1419" height="474" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1609252321255" />
+    <state width="1419" height="474" key="GridCell.Tab.0.left" timestamp="1609252321254">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1609228051411" />
+    <state width="1419" height="474" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1609252321254" />
+    <state width="1419" height="474" key="GridCell.Tab.0.right" timestamp="1609252321255">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="474" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1609252321255" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1609145902123">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1609145902123" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1609249790826">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1609249790826" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="model" />
+        <watch expression="head_model" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
