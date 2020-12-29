@@ -142,6 +142,9 @@ def Model(X_train, X_test, y_train, y_test):
     output = layer.Dense(1, activation="sigmoid", kernel_initializer=tf.keras.initializers.he_uniform())(flatten)
 
     # Model
+    old_model=tf.keras.models.load_model("./mo")
+
+
     model = tf.keras.Model(inputs=input, outputs=output)
     model.summary()
     model.compile(optimizer=tf.keras.optimizers.Adam(0.0001), loss="binary_crossentropy",
