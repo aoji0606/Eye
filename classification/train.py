@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import recall_score, precision_score, f1_score
 
-num = 21
+num = 19
 shape = 0
 ACTIVATION = "selu"
 shape_list = []
@@ -80,15 +80,6 @@ def GetModel():
         model = tf.keras.models.load_model("./model/model_%d.h5" % num)
         for i in range(8, len(model.layers), 1):
             model.layer[i] = shared_model.layer[i]
-
-        # model.layers[0] = head_model.layers[0]
-        # model.layers[1] = head_model.layers[1]
-        # model.layers[2] = head_model.layers[2]
-        # model.layers[3] = head_model.layers[3]
-        # model.layers[4] = head_model.layers[4]
-        # model.layers[5] = head_model.layers[5]
-        # model.layers[6] = head_model.layers[6]
-        # model.layers[7] = head_model.layers[7]
     else:
         arg = np.argsort(shape_list)
         k_min = k_s_list[arg[0]][0]
