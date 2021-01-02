@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import recall_score, precision_score, f1_score
 
-num = int(sys.argv[i])
+num = int(sys.argv[1])
 shape = 0
 ACTIVATION = "selu"
 shape_list = []
