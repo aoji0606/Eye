@@ -189,6 +189,6 @@ def Model(X_train, X_test, y_train, y_test):
 
 
 if __name__ == '__main__':
-    os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0"
     X_train, X_test, y_train, y_test = LoadData()
     Model(X_train, X_test, y_train, y_test)
