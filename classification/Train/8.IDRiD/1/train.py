@@ -2,7 +2,6 @@ import os
 import sys
 import tensorflow as tf
 import tensorflow.keras.layers as layer
-from tensorflow.keras import layers
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -38,7 +37,7 @@ def SpatialAttention(inputs):
     avg_out = tf.reduce_mean(inputs, axis=3)
     max_out = tf.reduce_max(inputs, axis=3)
     out = tf.stack([avg_out, max_out], axis=3)
-    out = layers.Conv2D(filters=1, kernel_size=7, strides=1, activation="sigmoid", padding="same", use_bias=False,
+    out = layer.Conv2D(filters=1, kernel_size=7, strides=1, activation="sigmoid", padding="same", use_bias=False,
                         kernel_initializer="he_normal", kernel_regularizer=tf.keras.regularizers.l2(5e-4))(out)
 
     return out
@@ -110,7 +109,7 @@ def Model(X_train, X_test, y_train, y_test):
     input_fcn = layer.Add()([pool_max, pool_mid, pool_min])
     print(input_fcn.shape)
 
-    # FCN
+    # FPN
     conv1 = layer.Conv2D(filters=64, kernel_size=3, strides=1, padding="valid", activation=ACTIVATION,
                          kernel_initializer=tf.keras.initializers.he_uniform())(input_fcn)
     conv2 = layer.Conv2D(filters=128, kernel_size=3, strides=1, padding="valid", activation=ACTIVATION,
