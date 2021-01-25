@@ -2,7 +2,7 @@ import os
 import tensorflow as tf
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import precision_score, recall_score, f1_score
+from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score
 
 
 def LoadData(num):
@@ -39,6 +39,7 @@ if __name__ == '__main__':
     pred[pred != 1] = 0
 
     print("vote:")
+    print("accuracy=", accuracy_score(y, pred))
     print("precision=", precision_score(y, pred))
     print("recall=", recall_score(y, pred))
     print("f1=", f1_score(y, pred))
