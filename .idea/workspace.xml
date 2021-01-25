@@ -2,45 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9febec3f-5598-48d2-80a0-70d3c64f539b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/classification/Train/1.Eoptha/2/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/1.Eoptha/2/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/1.Eoptha/3/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/1.Eoptha/3/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/1.Eoptha/4/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/1.Eoptha/4/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/1.Eoptha/5/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/1.Eoptha/5/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/2.DB1/1/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/2.DB1/1/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/2.DB1/2/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/2.DB1/2/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/2.DB1/3/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/2.DB1/3/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/2.DB1/4/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/2.DB1/4/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/2.DB1/5/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/2.DB1/5/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/3.ROC/1/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/3.ROC/1/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/3.ROC/2/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/3.ROC/2/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/3.ROC/3/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/3.ROC/3/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/3.ROC/4/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/3.ROC/4/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/3.ROC/5/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/3.ROC/5/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/4.RC1/1/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/4.RC1/1/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/4.RC1/2/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/4.RC1/2/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/4.RC1/3/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/4.RC1/3/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/4.RC1/4/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/4.RC1/4/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/4.RC1/5/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/4.RC1/5/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/5.RC2/1/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/5.RC2/1/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/5.RC2/2/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/5.RC2/2/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/5.RC2/3/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/5.RC2/3/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/5.RC2/4/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/5.RC2/4/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/5.RC2/5/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/5.RC2/5/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/6.SLOG/1/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/6.SLOG/1/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/6.SLOG/2/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/6.SLOG/2/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/6.SLOG/3/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/6.SLOG/3/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/6.SLOG/4/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/6.SLOG/4/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/6.SLOG/5/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/6.SLOG/5/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/7.SLOI/1/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/7.SLOI/1/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/7.SLOI/2/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/7.SLOI/2/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/7.SLOI/3/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/7.SLOI/3/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/7.SLOI/4/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/7.SLOI/4/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/7.SLOI/5/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/7.SLOI/5/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/8.IDRiD/1/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/8.IDRiD/1/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/8.IDRiD/2/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/8.IDRiD/2/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/8.IDRiD/3/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/8.IDRiD/3/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/8.IDRiD/4/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/8.IDRiD/4/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/Train/8.IDRiD/5/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/8.IDRiD/5/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/Train/1.Eoptha/1/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/1.Eoptha/1/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/Train/8.IDRiD/1/feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/8.IDRiD/1/feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/Train/8.IDRiD/2/feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/8.IDRiD/2/feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/Train/8.IDRiD/3/feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/8.IDRiD/3/feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/Train/8.IDRiD/4/feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/8.IDRiD/4/feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/Train/8.IDRiD/5/feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/Train/8.IDRiD/5/feature.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +47,7 @@
       <recent name="$PROJECT_DIR$/classification" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.train">
+  <component name="RunManager" selected="Python.feature (1)">
     <configuration name="FeatureMap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Eye" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,6 +61,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classification/FeatureMap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="feature (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Eye" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classification/Train/1.Eoptha/1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classification/Train/1.Eoptha/1/feature.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,9 +158,11 @@
       <item itemvalue="Python.FeatureMap" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.train" />
+      <item itemvalue="Python.feature (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.feature (1)" />
         <item itemvalue="Python.feature" />
         <item itemvalue="Python.train" />
         <item itemvalue="Python.FeatureMap" />
@@ -201,29 +192,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1609250330177" />
-    <state width="1419" height="296" key="GridCell.Tab.0.bottom" timestamp="1611235910497">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1659" height="354" key="GridCell.Tab.0.bottom" timestamp="1611495932456">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1419" height="296" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1611235910497" />
-    <state width="1659" height="416" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1609862957372" />
+    <state width="1659" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1611495932456" />
     <state width="1659" height="355" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1610554982423" />
-    <state width="1419" height="296" key="GridCell.Tab.0.center" timestamp="1611235910496">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1659" height="354" key="GridCell.Tab.0.center" timestamp="1611495932455">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1419" height="296" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1611235910496" />
-    <state width="1659" height="416" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1609862957371" />
+    <state width="1659" height="354" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1611495932455" />
     <state width="1659" height="355" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1610554982422" />
-    <state width="1419" height="296" key="GridCell.Tab.0.left" timestamp="1611235910495">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1659" height="354" key="GridCell.Tab.0.left" timestamp="1611495932455">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1419" height="296" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1611235910495" />
-    <state width="1659" height="416" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1609862957369" />
+    <state width="1659" height="354" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1611495932455" />
     <state width="1659" height="355" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1610554982420" />
-    <state width="1419" height="296" key="GridCell.Tab.0.right" timestamp="1611235910497">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1659" height="354" key="GridCell.Tab.0.right" timestamp="1611495932456">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1419" height="296" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1611235910497" />
-    <state width="1659" height="416" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1609862957371" />
+    <state width="1659" height="354" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1611495932456" />
     <state width="1659" height="355" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1610554982422" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1609145902123">
       <screen x="0" y="0" width="1440" height="900" />

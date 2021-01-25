@@ -3,18 +3,15 @@ import sys
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
 
 num = int(sys.argv[1])
 
 
 def LoadData():
-    X = np.load("./data/%d/X.npy" % num)
-    y = np.load("./data/%d/y.npy" % num)
+    X = np.load("./data/test/%d/X.npy" % num)
+    y = np.load("./data/test/%d/y.npy" % num)
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=666)
-
-    X_test = X_test[0]
+    X_test = X[0]
     X_test = X_test.reshape([1, X.shape[1], X.shape[2], X.shape[3]])
 
     return X_test
@@ -39,7 +36,7 @@ def GetFeature(X):
         img = img[0]
 
         for channle in range(img.shape[2]):
-        #for channle in range(10):
+            # for channle in range(10):
             # plt.imshow(img[:, :, channle])
             # dir = "./feature/%d/%s/%d.png" % (num, name, channle + 1)
             # plt.savefig(dir)
