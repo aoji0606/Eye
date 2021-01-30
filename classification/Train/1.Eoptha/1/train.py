@@ -39,7 +39,7 @@ def SpatialAttention(inputs):
     max_out = tf.reduce_max(inputs, axis=3)
     out = tf.stack([avg_out, max_out], axis=3)
     out = layer.Conv2D(filters=1, kernel_size=7, strides=1, activation="sigmoid", padding="same", use_bias=False,
-                        kernel_initializer="he_normal", kernel_regularizer=tf.keras.regularizers.l2(5e-4))(out)
+                       kernel_initializer="he_normal", kernel_regularizer=tf.keras.regularizers.l2(5e-4))(out)
 
     return out
 
@@ -130,7 +130,7 @@ def Model(X_train, X_test, y_train, y_test):
         out_cbam_conv3_c)
     add_dconv1_conv2_c = layer.Add()([dconv1, dropout2])
     conv_temp1 = layer.Conv2D(filters=256, kernel_size=3, strides=1, padding="valid", activation=ACTIVATION,
-                             kernel_initializer=tf.keras.initializers.he_uniform())(add_dconv1_conv2_c)
+                              kernel_initializer=tf.keras.initializers.he_uniform())(add_dconv1_conv2_c)
 
     # add_dconv1_conv2_c Attention
     out_channel = ChannelAttention(add_dconv1_conv2_c)
@@ -142,7 +142,7 @@ def Model(X_train, X_test, y_train, y_test):
         out_cbam_add_dconv1_conv2_c)
     add_dconv2_conv1_c = layer.Add()([dconv2, dropout1])
     conv_temp2 = layer.Conv2D(filters=256, kernel_size=5, strides=1, padding="valid", activation=ACTIVATION,
-                             kernel_initializer=tf.keras.initializers.he_uniform())(add_dconv2_conv1_c)
+                              kernel_initializer=tf.keras.initializers.he_uniform())(add_dconv2_conv1_c)
 
     add = layer.Add()([conv_temp1, conv_temp2, dropout3])
     flatten = layer.Flatten()(add)

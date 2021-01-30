@@ -73,7 +73,7 @@ def Model(X_train, X_test, y_train, y_test):
     input_fcn = layer.Add()([pool_max, pool_mid, pool_min])
     print(input_fcn.shape)
 
-    # FCN
+    # FPN
     conv1 = layer.Conv2D(filters=64, kernel_size=3, strides=1, padding="valid", activation=ACTIVATION,
                          kernel_initializer=tf.keras.initializers.he_uniform())(input_fcn)
     conv2 = layer.Conv2D(filters=128, kernel_size=3, strides=1, padding="valid", activation=ACTIVATION,
